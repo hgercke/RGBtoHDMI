@@ -12,7 +12,7 @@ How to install RGBtoHDMI with Audio Module in Amiga 500
 
 
 ## Mounting the RGBtoHDMI and Audio board
-When you have all the parts needed, you can start by soldering the Audio board to the RGBtoHDMI boardm, then open up your Amiga 500
+When you have all the parts needed, you can start by soldering the Audio board to the RGBtoHDMI board, then open up your Amiga 500
 
 1. Turn the RGBtoHDMI upside down and fit the Audio Board with the components up, pay close attention to how the pins are aligned to the left side.
 
@@ -84,7 +84,7 @@ But it can be a little unspecific for the hardware we use in the guide.
 
 Now, Download the Beta66.zip file.
 
-1. Format the MicroSD card as FAT32
+1. Format the MicroSD card as FAT32 (Don't overwrite the previous version on the SDCard)
 2. Unzip all the contents of the Beta66.zip file into the root of the MicroSD card
 3. Locate the folder Amiga_CPLD_Readme/AmigaCPLD_Setup and copy the Profiles folder and both *.txt files to the root of the MicroSD card. Let it overwrite the file in Profiles folder. (This is a specific profile for the 1-button solution on RGBtoHDMI longboard)
 
