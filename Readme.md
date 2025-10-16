@@ -89,5 +89,8 @@ Now, Download the Beta66.zip file.
 3. Locate the folder Amiga_CPLD_Readme/AmigaCPLD_Setup and copy the Profiles folder and both *.txt files to the root of the MicroSD card. Let it overwrite the file in Profiles folder. (This is a specific profile for the 1-button solution on RGBtoHDMI longboard)
 
 
+Please Note: you may be prompted to update the firmware when first running this version so select the v95 RGB firmware and click the RGBtoHDMI button again to confirm update
 
+This is also stated in the release notes:
+https://github.com/IanSB/RGBtoHDMI/releases
 
