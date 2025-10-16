@@ -3,7 +3,7 @@ How to install RGBtoHDMI with Audio Module in Amiga 500
 
 ### Prerequisits
 * Amiga 500
-* RaspberryPI Zero or RaspberryPI Zero 2 With header (https://raspberrypi.dk/produkt/raspberry-pi-zero-2-wh-med-paaloddet-header/)
+* RaspberryPI Zero or RaspberryPI Zero 2 with GPIO header (https://raspberrypi.dk/produkt/raspberry-pi-zero-2-wh-med-paaloddet-header/)
 * MicroSD card 8GB/16GB 
 * Audio for RGBtoHDMI board (https://www.c0pperdragon.com/product/18978003/audio-for-rgbtohdmi)
 * RGBtoHDMI Amiga 500 board (https://amigastore.eu/en/963-rgb2hdmi-amiga-500-angled.html)
@@ -22,7 +22,7 @@ When you have all the parts needed, you can start by soldering the Audio board t
 
 ![](images/IMG_0859_small.png)
 
-3. Solder the other end of the wires/cables to the backside of the Amiga audio phono connectors, Left to Left, Right to Right. The ground pad must be soldered to any ground point on the Amiga Motherboard
+3. Solder the other end of the wires/cables to the backside of the Amiga audio phono connectors, Left to Left, Right to Right. The ground pad must be soldered to any groundpoint on the Amiga Motherboard, I use the ground on the backside of the Amiga Audio phono connectors.
 
 ![](images/IMG_0861_small.png)
 
@@ -30,7 +30,7 @@ When you have all the parts needed, you can start by soldering the Audio board t
 
 ![](images/IMG_0860_small.png)
 
-4. Locate the Denise chip and take it out of the Socket (If you are unlucky and you Denise chip is soldered directy to the Motherboard you have to unsolder it. It can be a pain but not impossible.)
+4. Locate the Denise chip and take it out of the Socket (If you are unlucky and your Denise chip is soldered directy to the Motherboard you have to unsolder it. It can be a pain but not impossible.)
 
 ![](images/IMG_0856_small.png)
 
@@ -72,7 +72,7 @@ Print any color you like and click the extention on the Amiga case
 
 
 
-## RGBtoHDMI - RaspberryPI SD card Preperations
+## RGBtoHDMI - RaspberryPI SD card Preparations
 
 When you have the Audio board installed you need the version that handles Audio.
 
